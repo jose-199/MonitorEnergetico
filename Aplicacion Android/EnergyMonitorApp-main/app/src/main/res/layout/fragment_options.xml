@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".Options">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Configurar un dispositivo de medición"
+        android:textColor="#B1B1B1"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonConfDevice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="#80000000"
+        android:src="@drawable/socket"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/textViewEnergyInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Visualizar el consumo energético"
+        android:textColor="#B1B1B1"
+        android:textSize="16sp" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEnergyInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/round_corners"
+        android:backgroundTint="#80000000"
+        android:src="@drawable/speedometer"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</LinearLayout>

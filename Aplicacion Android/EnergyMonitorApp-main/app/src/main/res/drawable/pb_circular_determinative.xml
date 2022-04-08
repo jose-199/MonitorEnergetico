@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@android:id/background">
+
+        <shape android:shape="ring"
+            android:useLevel="false"
+            android:thicknessRatio="6"
+            >
+
+            <solid android:color="@color/colorProgressVoltFont"/>
+
+        </shape>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <rotate android:fromDegrees="145"
+            android:toDegrees="145">
+
+            <shape android:shape="ring"
+                android:thicknessRatio="6">
+
+                <gradient android:type="sweep"
+                    android:startColor="@color/colorProgressVolt"
+                    android:centerColor="@color/colorProgressVolt"
+                    android:endColor="@color/colorProgressVolt" />
+
+            </shape>
+        </rotate>
+    </item>
+
+</layer-list>
